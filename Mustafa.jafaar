@@ -1,0 +1,16 @@
+name: smart_assistant_flutter
+description: A simple Arabic voice assistant using ChatGPT
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  speech_to_text: ^6.1.1
+  flutter_tts: ^3.7.0
+  http: ^0.14.0
+
+flutter:
+  uses-material-design: true
